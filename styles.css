@@ -1,6 +1,13 @@
-nav {
-  float: left;
-  width: 30%;
-  height: 200px; /* only for demonstration, should be removed */
-  padding: 20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+ul.Resume{
+	
+}
+li.inline{
+	display: inline;
 }
