@@ -2,7 +2,7 @@ ul {
  
 }
 Resume{
-	display: inline block;
+	display: inline;
 	padding: 8px; 
 	background-color:#333;
 	position: fixed;
