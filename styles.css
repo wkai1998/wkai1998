@@ -1,13 +1,13 @@
 ul {
  
 }
-ul.Resume{
+Resume{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	width: 200px;
 	background-color: #f1f1f1;
 }
-li.inline{
+inline{
 	display: inline;
 }
