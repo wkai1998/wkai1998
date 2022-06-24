@@ -1,17 +1,22 @@
-ul {
- 
+div.div{
+	margin-top: 100px;
 }
 ul.Resume{
-	display: inline;
 	padding: 8px; 
-	background-color:#333;
+	background-color: #333;
 	position: fixed;
-	text-decoration: none;
 	width: 100%;
 }
-div.inline{
-	width: 200px;
+dl.inline{
+	width: 60%;
 	background-color: #f1f1f1;
 	height: 100%;
-	padding: 10px 10px;
+	padding: 50px;
+	margin-left: 100px;
+	display: inline-block;
+}
+a.Resume{
+	padding-left: 80%; 
+	font-size: 30px;
+	text-decoration-none;
 }

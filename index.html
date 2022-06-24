@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html data-theme="dark">
 		<head>
+			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="stylesheet" href="styles.css">
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		</head>
 		<body>
-			<div class="container">
-				<ul class="Resume">
-					<b><a>Resume</a></b>
-					<a style="float:right">portfolio</a>
-					<a style="float:right">Contact Me</a>
+			<div>
+				<ul class="Resume navbar">
+					<b><a class="Resume text-decoration-none">Resume</a></b>
+					<ul style="float:right">
+						<div class="btn-group">
+						  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><b>Contact Me !</b></button>
+						  <ul class="dropdown-menu">
+							<li><a class="dropdown-item">Action</a></li>
+							<li><a class="dropdown-item">Another action</a></li>
+							<li><a class="dropdown-item">Something else here</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item">Separated link</a></li>
+						  </ul>
+						</div>
+						<a style="padding-right:30px" class="btn"><b>portfolio</b></a>
+					</ul>
 				</ul>
 			</div>
-			<div class="inline container">
-				<ul>
-					<li><a>Home</a></li>
-					<li><a>News</a></li>
-					<li><a>Contact</a></li>
-					<li><a>About</a></li>
-				</ul>
-			</div>
-			<div class="container">
-				<H1>I'm LOO WEN KAI !<H1>
-				<details>
-				  <summary>Self-Introduction</summary>
-				  <p>Hi, I am Kai from Malacca, Graduated with a BSc in Computer Science from Chinese Culture University, Taiwan. Equipped with excellent interpersonal skills and customer-oriented mindset in achieving corporate goals.</p>
-				</details>
-				<details>
-				  <summary>More Introduction</summary>
-					  <ul style="padding-left:50px">
-						<li>I am Malaysian</li>
-						<li>I was born in malacca</li>
-						<li>Degree with Computer Science and Information Engineering</li>
-						<li>Graduated from Chinese Culture University in Taiwan</li>
-					  </ul>
-				</details>
-				<select>
-					<option value="" disabled selected>MY other skills</option>
-					<option>-Python</option>
-					<option>-HTML, CSS, Bootstrap</option>
-					<option>-Java, Javascript</option>
-					<option>-C++, C#, C</option>
-					<option>-Arduino works</option>
-					<option>-Ubuntu, Kali Linux</option>
-				</select>
-				<select>
-				  <option value="" disabled selected>MY Hobbies</option>
-				  <option>-Workout</option>
-				  <option>-Swimming</option>
-				  <option>-Computer Games</option>
-				  <option>-Cooking</option>
-				</select>
+			<div class="container-fluid row">
+				<div class="col-md-4">
+					<dl class="inline"  style="margin-top:100px; padding: 30px">
+						<dt>Date/Place of birth</dt>
+							<dd>>1998/03/14</dd>&nbsp
+						<dt>Nationality</ul>
+							<dd>>1998/03/14</dd>&nbsp
+						<dt>Skills</dt>
+							<dd>-Ability to work under pressure</dd>
+							<dd>-Time management</dd>
+							<dd>-Computer Skills</dd>
+							<dd>-Teamwork</dd>
+							<dd>-Ability to work in team</dd>
+							<dd>-Fast learner</dd>
+							<dd>-Hard working</dd>&nbsp
+						<dt>Languages</dt>
+							<dd>-Chinese</dd>
+							<dd>-English</dd>
+							<dd>-Malay</dd>
+							<dd>-Cantonese</dd>
+					</dl>
+				</div>
+				<div class="container-fluid col-sm-8"  style="margin-top:100px">
+					<div class="col-sm-8">
+						<H1 style="padding-bottom:50px;">I'm LOO WEN KAI !<H1>
+					</div>
+					<details>
+					  <summary>Self-Introduction</summary>
+					  <p>Hi, I am Kai from Malacca, Graduated with a BSc in Computer Science from Chinese Culture University, Taiwan. Equipped with excellent interpersonal skills and customer-oriented mindset in achieving corporate goals.</p>
+					</details>
+					<details>
+					  <summary>More Introduction</summary>
+						  <ul style="padding-left:50px">
+							<li>I am Malaysian</li>
+							<li>I was born in malacca</li>
+							<li>Degree with Computer Science and Information Engineering</li>
+							<li>Graduated from Chinese Culture University in Taiwan</li>
+						  </ul>
+					</details>
+					<select>
+						<option value="" disabled selected>MY other skills</option>
+						<option>-Python</option>
+						<option>-HTML, CSS, Bootstrap</option>
+						<option>-Java, Javascript</option>
+						<option>-C++, C#, C</option>
+						<option>-Arduino works</option>
+						<option>-Ubuntu, Kali Linux</option>
+					</select>
+					<select>
+					  <option value="" disabled selected>MY Hobbies</option>
+					  <option>-Workout</option>
+					  <option>-Swimming</option>
+					  <option>-Computer Games</option>
+					  <option>-Cooking</option>
+					</select>
+				</div>
 			</div>
 		</body>
 		<footer>
-				<center>Thanks for viewing !</center>
+				<center class="container"><b>Thanks for viewing !</b</center>
 		</footer>
 </html>
