@@ -4,37 +4,37 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="stylesheet" href="styles.css">
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		</head>
 		<body>
 			<div>
 				<ul class="Resume navbar">
-					<b><a class="Resume text-decoration-none">Resume</a></b>
+					<b><a class="Resume text-decoration-none"><i class="fa-solid fa-file-lines icon"></i>Resume  <i style="font-size: 10px;">  by Wen Kai</i></a></b>
 					<ul style="float:right">
 						<div class="btn-group">
-						  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><b>Contact Me !</b></button>
+						  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-phone icon"></i><b>Contact Me</b></button>
 						  <ul class="dropdown-menu">
-							<li><a class="dropdown-item">Action</a></li>
-							<li><a class="dropdown-item">Another action</a></li>
-							<li><a class="dropdown-item">Something else here</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item">Separated link</a></li>
+							<li><a class="dropdown-item"><i class="fa-solid fa-phone icon"></i>+6012-9828838</a></li>
+							<li><a class="dropdown-item"><i class="fa-solid fa-envelope icon"></i>wkai98@live.com</a></li>
+							<li><a class="dropdown-item"><i class="fa-brands fa-discord icon"></i>Idiot#9659 (discord)</a></li>
+							<li><a class="dropdown-item"><i class="fa-brands fa-instagram icon"></i>@1diot_98 (Instagram)</a></li>
 						  </ul>
 						</div>
-						<a style="padding-right:30px" class="btn"><b>portfolio</b></a>
+						<a style="padding-right:30px" class="btn"><i class="fa-regular fa-folder icon"></i><b>portfolio</b></a>
 					</ul>
 				</ul>
 			</div>
 			<div class="container-fluid row">
 				<div class="col-md-4">
 					<dl class="inline"  style="margin-top:100px; padding: 30px">
-						<dt>Date/Place of birth</dt>
-							<dd>>1998/03/14</dd>&nbsp
-						<dt>Nationality</ul>
-							<dd>>1998/03/14</dd>&nbsp
-						<dt>Skills</dt>
+						<dt><i class="fa-solid fa-calendar-days icon"></i>Date/Place of birth</dt>
+							<dd>-1998/03/14</dd>&nbsp
+						<dt><i class="fa-solid fa-flag icon"></i>Nationality</ul>
+							<dd>-Malaysian</dd>&nbsp
+						<dt><i class="fa-solid fa-kitchen-set icon"></i>Skills</dt>
 							<dd>-Ability to work under pressure</dd>
 							<dd>-Time management</dd>
 							<dd>-Computer Skills</dd>
@@ -42,7 +42,7 @@
 							<dd>-Ability to work in team</dd>
 							<dd>-Fast learner</dd>
 							<dd>-Hard working</dd>&nbsp
-						<dt>Languages</dt>
+						<dt><i class="fa-solid fa-language icon"></i>Languages</dt>
 							<dd>-Chinese</dd>
 							<dd>-English</dd>
 							<dd>-Malay</dd>
@@ -51,12 +51,9 @@
 				</div>
 				<div class="container-fluid col-sm-8"  style="margin-top:100px">
 					<div class="col-sm-8">
-						<H1 style="padding-bottom:50px;" href="https://github.com/wkai1998/wkai1998">I'm LOO WEN KAI !<H1>
+						<H1 style="padding-bottom:20px;"><a style="text-decoration: none;" href="https://github.com/wkai1998/wkai1998">I'm LOO WEN KAI !<i style="margin-left: 10px" class="fa-brands fa-github"></i></a></H1>
+						<dl><dt><i class="fa-solid fa-user icon"></i><b>Self-Introduction</b></dt><dd>Hi, I am Kai from Malacca, Graduated with a BSc in Computer Science from Chinese Culture University, Taiwan. Equipped with excellent interpersonal skills and customer-oriented mindset in achieving corporate goals.</dd></dl>
 					</div>
-					<details>
-					  <summary>Self-Introduction</summary>
-					  <p>Hi, I am Kai from Malacca, Graduated with a BSc in Computer Science from Chinese Culture University, Taiwan. Equipped with excellent interpersonal skills and customer-oriented mindset in achieving corporate goals.</p>
-					</details>
 					<details>
 					  <summary>More Introduction</summary>
 						  <ul style="padding-left:50px">
@@ -66,8 +63,8 @@
 							<li>Graduated from Chinese Culture University in Taiwan</li>
 						  </ul>
 					</details>
-					<select>
-						<option value="" disabled selected>MY other skills</option>
+					<select class="col-md-8 sel">
+						<option>Here for my other skills</option>
 						<option>-Python</option>
 						<option>-HTML, CSS, Bootstrap</option>
 						<option>-Java, Javascript</option>
@@ -75,7 +72,7 @@
 						<option>-Arduino works</option>
 						<option>-Ubuntu, Kali Linux</option>
 					</select>
-					<select>
+					<select class="col-md-8 sel">
 					  <option value="" disabled selected>MY Hobbies</option>
 					  <option>-Workout</option>
 					  <option>-Swimming</option>
@@ -86,6 +83,6 @@
 			</div>
 		</body>
 		<footer>
-				<center class="container"><b>Thanks for viewing !</b</center>
+			<div class="container-fluid f">Thanks for viewing !</div>
 		</footer>
 </html>
