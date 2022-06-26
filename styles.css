@@ -11,9 +11,10 @@ dl.inline{
 	width: 60%;
 	background-color: #f1f1f1;
 	height: 85%;
-	padding: 50px;
 	margin-left: 100px;
 	display: inline-block;
+	margin-top:100px; 
+	padding: 40px 40px 50px 40px;
 }
 a.Resume{
 	padding-left: 80px; 
@@ -21,9 +22,8 @@ a.Resume{
 	text-decoration: none;
 }
 select.sel{
-	margin-top: 15px;
 	padding: 10px; 
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	color: blue;
 	font-size: 20px;
 }
@@ -38,5 +38,9 @@ div.f{
 	 padding: 10px 10px;
 	 margin-top: 10px;
 }
-
-
+a.backG{
+	background-color: #0000ff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	color: white;
+}
