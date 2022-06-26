@@ -53,3 +53,7 @@ img {
 	opacity: 0.5;
 	border: 10px solid white;
 }
+.dark-mode{
+	background-color: black;
+	color: white;
+}
