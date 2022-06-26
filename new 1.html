@@ -1,88 +1,55 @@
 <!DOCTYPE html>
-<html data-theme="dark">
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" href="styles.css">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-		</head>
-		<body>
-			<div>
-				<ul class="Resume navbar">
-					<b><a class="Resume text-decoration-none"><i class="fa-solid fa-file-lines icon"></i>Resume  <i style="font-size: 10px;">  by Wen Kai</i></a></b>
-					<ul style="float:right">
-						<div class="btn-group">
-						  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-phone icon"></i><b>Contact Me</b></button>
-						  <ul class="dropdown-menu">
-							<li><a class="dropdown-item"><i class="fa-solid fa-phone icon"></i>+6012-9828838</a></li>
-							<li><a class="dropdown-item"><i class="fa-solid fa-envelope icon"></i>wkai98@live.com</a></li>
-							<li><a class="dropdown-item"><i class="fa-brands fa-discord icon"></i>Idiot#9659 (discord)</a></li>
-							<li><a class="dropdown-item"><i class="fa-brands fa-instagram icon"></i>@1diot_98 (Instagram)</a></li>
-						  </ul>
-						</div>
-						<a style="padding-right:30px" class="btn"><i class="fa-regular fa-folder icon"></i><b>portfolio</b></a>
-					</ul>
-				</ul>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body>
+		<!-- Carousel -->
+		<div id="demo" class="carousel slide col-lg col-xl" data-bs-ride="carousel">
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
 			</div>
-			<div class="container-fluid row">
-				<div class="col-md-4">
-					<dl class="inline"  style="margin-top:100px; padding: 30px">
-						<dt><i class="fa-solid fa-calendar-days icon"></i>Date/Place of birth</dt>
-							<dd>-1998/03/14</dd>&nbsp
-						<dt><i class="fa-solid fa-flag icon"></i>Nationality</ul>
-							<dd>-Malaysian</dd>&nbsp
-						<dt><i class="fa-solid fa-kitchen-set icon"></i>Skills</dt>
-							<dd>-Ability to work under pressure</dd>
-							<dd>-Time management</dd>
-							<dd>-Computer Skills</dd>
-							<dd>-Teamwork</dd>
-							<dd>-Ability to work in team</dd>
-							<dd>-Fast learner</dd>
-							<dd>-Hard working</dd>&nbsp
-						<dt><i class="fa-solid fa-language icon"></i>Languages</dt>
-							<dd>-Chinese</dd>
-							<dd>-English</dd>
-							<dd>-Malay</dd>
-							<dd>-Cantonese</dd>
-					</dl>
-				</div>
-				<div class="container-fluid col-sm-8"  style="margin-top:100px">
-					<div class="col-sm-8">
-						<H1 style="padding-bottom:20px;"><a style="text-decoration: none;" href="https://github.com/wkai1998/wkai1998">I'm LOO WEN KAI !<i style="margin-left: 10px" class="fa-brands fa-github"></i></a></H1>
-						<dl><dt><i class="fa-solid fa-user icon"></i><b>Self-Introduction</b></dt><dd>Hi, I am Kai from Malacca, Graduated with a BSc in Computer Science from Chinese Culture University, Taiwan. Equipped with excellent interpersonal skills and customer-oriented mindset in achieving corporate goals.</dd></dl>
+
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="Images/Homepage.png" alt="The Homepage" class="bG d-block" style="width:100%">
+					<div class="carousel-caption">
+						<h3>Final Project</h3>
+						<p>The Homepage</p>
 					</div>
-					<details>
-					  <summary>More Introduction</summary>
-						  <ul style="padding-left:50px">
-							<li>I am Malaysian</li>
-							<li>I was born in malacca</li>
-							<li>Degree with Computer Science and Information Engineering</li>
-							<li>Graduated from Chinese Culture University in Taiwan</li>
-						  </ul>
-					</details>
-					<select class="col-md-8 sel">
-						<option>Here for my other skills</option>
-						<option>-Python</option>
-						<option>-HTML, CSS, Bootstrap</option>
-						<option>-Java, Javascript</option>
-						<option>-C++, C#, C</option>
-						<option>-Arduino works</option>
-						<option>-Ubuntu, Kali Linux</option>
-					</select>
-					<select class="col-md-8 sel">
-					  <option value="" disabled selected>MY Hobbies</option>
-					  <option>-Workout</option>
-					  <option>-Swimming</option>
-					  <option>-Computer Games</option>
-					  <option>-Cooking</option>
-					</select>
+				</div>
+				<div class="carousel-item">
+					<img src="Images/LogInPage.png" alt="Log in page" class="bG d-block " style="width:100%">
+					<div class="carousel-caption">
+						<h3>Final Project</h3>
+						<p>The log in page</p>
+					</div> 
+				</div>
+				<div class="carousel-item">
+					  <img src="Images/Wiki.png" alt="Wiki page" class="bG d-block" style="width:100%">
+					  <div class="carousel-caption">
+							<h3>Final Project</h3>
+							<p>The wiki page</p>
+					  </div>  
 				</div>
 			</div>
-		</body>
-		<footer>
-			<div class="container-fluid f">Thanks for viewing !</div>
-		</footer>
+			<!-- Left and right controls/icons -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+		</div>
+
+
+	</body>
 </html>
