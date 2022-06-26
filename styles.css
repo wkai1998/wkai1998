@@ -1,5 +1,5 @@
-div.div{
-	margin-top: 100px;
+div.style{
+	margin-bottom: 50px;
 }
 ul.Resume{
 	padding: 8px; 
@@ -8,13 +8,13 @@ ul.Resume{
 	width: 100%;
 }
 dl.inline{
-	width: 60%;
+	width: 100%;
 	background-color: #f1f1f1;
-	height: 85%;
-	margin-left: 100px;
+	height: 90%;
 	display: inline-block;
-	margin-top:100px; 
-	padding: 40px 40px 50px 40px;
+	margin-top:50px; 
+	padding: 40px 20px 60px 40px;
+	margin-left: 10px;
 }
 a.Resume{
 	padding-left: 80px; 
@@ -39,8 +39,17 @@ div.f{
 	 margin-top: 10px;
 }
 a.backG{
-	background-color: #0000ff;
+	background-color: #51942d;
 	padding: 10px 20px 10px 20px;
 	border-radius: 10px;
 	color: white;
+}
+img {
+	display: block;
+	margin-top: 100px;
+	width: 100%;
+	min-height: 200px;
+	max-height: 500px;
+	opacity: 0.5;
+	border: 10px solid white;
 }

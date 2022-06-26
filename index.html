@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="dark">
 		<head>
+			<title>Resume by LOO WEN KAI</title>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="stylesheet" href="styles.css">
@@ -11,7 +12,7 @@
 		</head>
 		<body>
 			<div><!--Resume-->
-				<ul class="Resume navbar">
+				<ul class="Resume navbar navbar-inverse" style="z-index: 9999;">
 					<b><a href="https://wkai1998.github.io/wkai1998/" class="Resume text-decoration-none"><i class="fa-solid fa-file-lines icon"></i>Resume  <i style="font-size: 10px;">  by Wen Kai</i></a></b>
 					<ul style="float:right">
 						<div class="btn-group">
@@ -27,15 +28,65 @@
 					</ul>
 				</ul>
 			</div>
-			<div class="carousel-item"><!--Slideshow-->
-			  <img src="..." alt="...">
-			  <div class="carousel-caption d-none d-md-block">
-				<h5>...</h5>
-				<p>...</p>
-			  </div>
+			<!-- Carousel -->
+			<div id="demo" class="carousel slide col-sm col-md col-lg col-xl-12 container-fluid" data-bs-ride="carousel">
+				<!-- Indicators/dots -->
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+				</div>
+
+				<!-- The slideshow/carousel -->
+				<div class="carousel-inner">
+					<div class="carousel-item active"  data-bs-interval="2000">
+						<img src="Images/LogInPage.png" alt="Log in page" class="bG d-block ">
+						<div class="carousel-caption style">
+							<h2>The log in page</h2>
+							<p>The Final Project 2020-2021</p>
+						</div> 
+					</div>
+					<div class="carousel-item" data-bs-interval="4000">
+						<img src="Images/Homepage.png" alt="The Homepage" class="bG d-block">
+						<div class="carousel-caption style">
+							<h2>The Homepage</h2>
+							<p>The Final Project 2020-2021</p>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="4000">
+						  <img src="Images/Wiki.png" alt="Wiki page" class="bG d-block">
+						  <div class="carousel-caption style">
+								<h2>The wiki page</h2>
+								<p>The Final Project 2020-2021</p>
+						  </div>  
+					</div>
+					<div class="carousel-item" data-bs-interval="4000">
+						  <img src="Images/RegisterPage.png" alt="Register page" class="bG d-block">
+						  <div class="carousel-caption style">
+								<h2>The register page</h2>
+								<p>The Final Project 2020-2021</p>
+						  </div>  
+					</div>
+					<div class="carousel-item" data-bs-interval="4000">
+						  <img src="Images/ForumPage.png" alt="Forum page" class="bG d-block">
+						  <div class="carousel-caption style">
+								<h2>The forum page</h2>
+								<p>The Final Project 2020-2021</p>
+						  </div>  
+					</div>
+				</div>
+				<!-- Left and right controls/icons -->
+				<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
 			</div>
 			<div class="container-fluid row">
-				<div class="col-sm col-md col-lg col-xl-5"><!--Date/Place-->
+				<div class="col-sm col-md-4 col-lg-4 col-xl-3"><!--Date/Place-->
 					<dl class="inline">
 						<dt><i class="fa-solid fa-calendar-days icon"></i>Date/Place of birth</dt>
 							<dd>-1998/03/14</dd>&nbsp
@@ -56,10 +107,10 @@
 							<dd>-Cantonese</dd>
 					</dl>
 				</div>
-				<div class="container-fluid col-sm col-md col-lg col-xl"  style="margin-top:120px"><!--Introduct-->
-					<div class="col-sm col-lg"><!--Hi I'm LOO WEN KAI-->
-						<H1 style="padding-bottom:20px;"><a class ="backG col-lg col-xl container-fluid" style="text-decoration: none;" href="https://github.com/wkai1998/wkai1998">I'm LOO WEN KAI ! <i style="margin-left: 10px" class="fa-brands fa-github"></i></a></H1>
-						<dl><dt><i class="fa-solid fa-user icon"></i><b>Self-Introduction</b></dt><dd>Hi, I am Kai from Malacca, Graduated with a BSc in Computer Science from Chinese Culture University, Taiwan. Equipped with excellent interpersonal skills and customer-oriented mindset in achieving corporate goals.</dd></dl>
+				<div class="container-fluid col-sm col-md col-lg col-xl"  style="margin-top:70px; margin-left:20px;"><!--Introduct-->
+					<div class="col-sm col-md col-lg col-xl" style="width:100%"><!--Hi I'm LOO WEN KAI-->
+						<div style="padding-bottom:20px; font-size: max(3vw, 15px);"><a class ="backG col-lg col-xl container-fluid" style="text-decoration: none;" href="https://github.com/wkai1998/wkai1998">I'm LOO WEN KAI ! <i style="margin-left: 10px" class="fa-brands fa-github"></i></a></div>
+						<dl><dt style="color:#3396FF"><i class="fa-solid fa-user icon"></i><b>Self-Introduction</b></dt><dd>Hi, I am Kai from Malacca, Graduated with a BSc in Computer Science from Chinese Culture University, Taiwan. Equipped with excellent interpersonal skills and customer-oriented mindset in achieving corporate goals.</dd></dl>
 						<details>
 						  <summary>More Introduction</summary>
 							  <ul style="padding-left:50px">
@@ -71,9 +122,9 @@
 						</details>&nbsp
 					</div>
 					<div>&nbsp <!--Programming experience-->
-						<dl class="col-md col-lg"><dt><i class="fa-solid fa-user icon"></i><b>Programming experience</b></dt>
+						<dl class="col-sm col-md col-lg col-xl"><dt style="color:#3396FF"><i class="fa-solid fa-user icon"></i><b>Programming experience</b></dt>
 						<dd><a>Extensive experience programming in Python, HTML, CSS and etc. Experience in using Ubuntu, Kali Linux and developing Arduino works.</a></dd></dl>
-						<select class="col-md sel">
+						<select class="col-sm col-md col-lg col-xl sel" style="color: white">
 							<option>Here for my other skills</option>
 							<option>-Python</option>
 							<option>-HTML, CSS, Bootstrap</option>
@@ -84,9 +135,9 @@
 						</select>
 					</div>
 					<div>&nbsp <!--My Hobbies-->
-						<dl class="col-md col-lg"><dt><i class="fa-solid fa-user icon"></i><b>My Hobbies</b></dt>
+						<dl class="col-sm col-md col-lg col-xl"><dt style="color:#3396FF"><i class="fa-solid fa-user icon"></i><b>My Hobbies</b></dt>
 						<dd><a>When I am feeling very anxious, I'll use my hobby to release my stress. Honestly it's so effective, you might not believe it !</a></dd></dl>
-						<select class="col-md-8 sel">
+						<select class="col-sm col-md col-lg col-xl sel" style="color: white">
 						  <option value="" disabled selected>Here for MY Hobbies</option>
 						  <option>-Workout</option>
 						  <option>-Swimming</option>
