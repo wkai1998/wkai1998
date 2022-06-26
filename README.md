@@ -1,7 +1,7 @@
 # WHO AM I ?
 
 - LOO WEN KAI
-- I'm living in MALAYSIA, MALACCA
+- I was born in MALAYSIA, MALACCA
 - Live in Kuala Lumpur
 - +6012-9828838
 - Fresher
