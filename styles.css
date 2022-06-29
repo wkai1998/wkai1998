@@ -36,7 +36,6 @@ div.f{
 	 text-align: center;
 	 font-weight: bold;
 	 padding: 10px 10px;
-	 margin-top: 10px;
 }
 a.backG{
 	background-color: #51942d;
@@ -47,13 +46,36 @@ a.backG{
 img {
 	display: block;
 	margin-top: 100px;
+	width:100%;
+	min-height: 200px;
+	max-height: 500px;
+	opacity: 0.6;
+	border: 3px solid white;
+}
+img.PF{
+	display: block;
+	margin-top: 70px;
 	width: 100%;
 	min-height: 200px;
 	max-height: 500px;
-	opacity: 0.5;
-	border: 3px solid white;
+	opacity: 1;
+	display: inline-block;
+}
+img.PF2{
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	min-height: 200px;
+	max-height: 500px;
+	opacity: 1;
+	display: inline-block;
 }
 body.dark-mode{
 	background-color: #151515;
 	color: white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
